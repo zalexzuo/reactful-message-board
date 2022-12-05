@@ -1,0 +1,23 @@
+.main {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 50rem;
+}
+
+.gitLogo {
+  margin: 30px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  img {
+    padding: 1px;
+    background-color: #fff;
+    border-radius: 50%;
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}

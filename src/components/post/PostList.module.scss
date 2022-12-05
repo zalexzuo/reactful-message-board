@@ -1,0 +1,33 @@
+// Main color
+$mainColor: #639fab;
+$tints: #bbcde5;
+$shades: #1c5d99;
+
+//Grey
+$greyText: #485460;
+$textColor: #1e272e;
+
+.postList {
+  list-style: none;
+}
+
+.sorting {
+  button {
+    color: $tints;
+    font-weight: 800;
+    background-color: $shades;
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 12px;
+    margin-top: 4.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      color: #fff;
+    }
+    &:active {
+      transform: scale(0.97);
+    }
+  }
+}

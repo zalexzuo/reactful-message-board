@@ -1,0 +1,31 @@
+// Main color
+$mainColor: #639fab;
+$tints: #bbcde5;
+$shades: #1c5d99;
+
+//Grey
+$greyText: #485460;
+$textColor: #1e272e;
+
+.pleaseLogin {
+  //border: 2px #1c5d99 solid;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  background-color: $tints;
+  color: $textColor;
+  .icon {
+    display: inline-block;
+    width: 6rem;
+    border-radius: 50%;
+    font-size: 4rem;
+    font-weight: 800;
+    color: $shades;
+    background-color: #fff;
+  }
+  .msg {
+    margin: 1.5rem;
+  }
+}

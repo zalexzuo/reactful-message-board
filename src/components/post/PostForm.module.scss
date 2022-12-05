@@ -1,0 +1,76 @@
+// SPACING SYSTEM (px)
+// // 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+// FONT SIZE SYSTEM (px)
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+// Main color
+$mainColor: #639fab;
+$tints: #bbcde5;
+$shades: #1c5d99;
+
+//Grey
+$greyText: #485460;
+$textColor: #1e272e;
+
+.formContainer {
+  color: $textColor;
+  margin: 2rem 0;
+  margin-top: 9rem;
+  padding: 2rem;
+  background-color: $tints;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  h2 {
+    padding-left: 1rem;
+    color: $greyText;
+    border-left: 5px solid $shades;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+  input {
+    width: 25rem;
+    padding: 5px;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    border-radius: 16px;
+  }
+  textarea {
+    resize: none;
+    width: 25rem;
+    padding: 5px;
+    height: 13rem;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+    border-radius: 16px;
+  }
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    button {
+      font-size: 110%;
+      margin: 0 auto;
+      display: block;
+      color: $tints;
+      font-weight: 800;
+      background-color: $shades;
+      border-radius: 8px;
+      padding: 10px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+      }
+      &:active {
+        transform: scale(0.97);
+      }
+    }
+  }
+}
