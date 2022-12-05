@@ -1,6 +1,7 @@
 <h1>Reactful Message Board App</h1>
 <h3>Introduction</h3>
-<p>A message board app build by ReactJS which allow user to login and leave a message.</p>
+<p>A message board app build by ReactJS which allow user 
+<br/>to login by google account and CRUD messages.</p>
 <a href="https://reactful-message-board.netlify.app/">App Link</a>
 <br/>
 <br/>
